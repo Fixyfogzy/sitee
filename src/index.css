@@ -1382,3 +1382,16 @@ h1, h2, h3, h4, h5 {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+.nav-links button,
+.nav-mobile-menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}

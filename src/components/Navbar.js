@@ -19,13 +19,12 @@ function Navbar({ page, setPage }) {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-inner">
-        <ul className="nav-links">
-          <li><a href="#" className={page === 'home' ? 'active' : ''} onClick={e => { e.preventDefault(); go('home'); }}>Home</a></li>
-          <li><a href="#" className={page === 'courses' ? 'active' : ''} onClick={e => { e.preventDefault(); go('courses'); }}>Courses</a></li>
-          <li><a href="#" className={page === 'facilitators' ? 'active' : ''} onClick={e => { e.preventDefault(); go('facilitators'); }}>Facilitators</a></li>
-          <li><a href="#" className={`nav-register ${page === 'register' ? 'active' : ''}`} onClick={e => { e.preventDefault(); go('register'); }}>Register</a></li>
-        </ul>
-
+       <ul className="nav-links">
+  <li><button className={page === 'home' ? 'active' : ''} onClick={() => go('home')}>Home</button></li>
+  <li><button className={page === 'courses' ? 'active' : ''} onClick={() => go('courses')}>Courses</button></li>
+  <li><button className={page === 'facilitators' ? 'active' : ''} onClick={() => go('facilitators')}>Facilitators</button></li>
+  <li><button className={`nav-register ${page === 'register' ? 'active' : ''}`} onClick={() => go('register')}>Register</button></li>
+</ul>
         <button className="nav-burger" onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
           <span></span>
@@ -34,11 +33,11 @@ function Navbar({ page, setPage }) {
       </div>
 
       <div className={`nav-mobile-menu ${menuOpen ? 'open' : ''}`}>
-        <a href="#" onClick={e => { e.preventDefault(); go('home'); }}>Home</a>
-        <a href="#" onClick={e => { e.preventDefault(); go('courses'); }}>Courses</a>
-        <a href="#" onClick={e => { e.preventDefault(); go('facilitators'); }}>Facilitators</a>
-        <a href="#" onClick={e => { e.preventDefault(); go('register'); }}>Register</a>
-      </div>
+  <button onClick={() => go('home')}>Home</button>
+  <button onClick={() => go('courses')}>Courses</button>
+  <button onClick={() => go('facilitators')}>Facilitators</button>
+  <button onClick={() => go('register')}>Register</button>
+</div>
     </nav>
   );
 }
