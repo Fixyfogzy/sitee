@@ -1406,22 +1406,37 @@ h1, h2, h3, h4, h5 {
   color: var(--primary);
 }
 
+.nav-mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  margin: 0 16px;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+}
+
 .nav-mobile-menu button {
   background: none;
   border: none;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  text-align: left;
+  text-align: center;
   color: var(--dark);
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 11px 16px;
-  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 18px 16px;
+  border-radius: 12px;
   transition: background 0.25s ease;
 }
 
 .nav-mobile-menu button:hover {
   background: rgba(107, 31, 92, 0.08);
   color: var(--primary);
+}
+
+.nav-mobile-menu.open {
+  display: flex;
 }
