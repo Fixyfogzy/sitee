@@ -64,8 +64,20 @@ const facilitators = [
    {
     id: 11,
     name: 'Olajide Ojeniyi 🇳🇬',
-    bio: 'Olajide Ojeniyi is a member of the Youth Advisory Group, World Bank-S4YE. A policy advocate and community development professional dedicated to strengthening civic participation and equitable governance across Africa. In his role at The Black Policy Institute, he leads initiatives that translate community insights into actionable policy strategies, focusing on youth empowerment, digital inclusion, and public sector accountability. He has worked across non-profit, social impact, and community-based environments, where he has facilitated research, stakeholder engagement, and grassroots organizing efforts. Olajide’s commitment to changemaking is shaped by his work with underserved communities and his belief that inclusive policy systems are essential for sustainable development. He supports emerging young leaders and community groups in building the skills and influence needed to effect long-term social change.',
+    bio: " He is a member of the Youth Advisory Group, World Bank -S4YE. Olajide 's commitment to change making is shaped by his work with underserved communities. He supports emerging young leaders and community groups in building the skills and influence needed to effect long term social change.",
     img: require('../images/Olajide Ojeniyi.jpeg'),
+  },
+  {
+    id: 12,
+    name: 'Freely Tanatswa Moyo 🇳🇬',
+    bio: 'She is a dedicated advocate for mental wellness and drugs and substance abuse. Freely has a BSc in Social Work and engages several platforms for sensitizing families on debilitating social ills. She contributes to achieving United Nations Sustainable Development Goal 5 (Good health and well being).',
+    img: require('../images/Freely Tanatswa Moyo.jpeg'),
+  },
+  {
+    id: 13,
+    name: 'Pauline John 🇳🇬',
+    bio: 'A dedicated Educator and trauma healing facilitator with a passion for nurturing holistic growth, learning and  emotional well-being of children. Areas of Expertise include, Curriculum consultant Trauma healing and psychosocial support Group facilitation and Community Engagement as well as Child and Youth development.',
+    img: require('../images/Pauline John.jpeg'),
   },
 ];
 function Facilitators() {

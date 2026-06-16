@@ -1440,3 +1440,32 @@ h1, h2, h3, h4, h5 {
 .nav-mobile-menu.open {
   display: flex;
 }
+
+
+
+
+
+/* ── Legal Page ── */
+.legal-page {
+  padding: 80px 24px;
+  background: #fff;
+}
+
+.legal-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.legal-inner p {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+
+.legal-inner h3 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}

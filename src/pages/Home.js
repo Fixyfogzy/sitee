@@ -62,17 +62,17 @@ function Home({ setPage }) {
       <div className="intro-card">
         
         <h3>Who It's For</h3>
-        <p>Parents and guardians of children aged 5–18 who want to be more intentional — whether you're navigating toddlerhood, the teen years, or anything in between.</p>
+        <p>Parents and guardians of children aged 0–18 who want to be more intentional, whether you're navigating toddlerhood, the teen years, or anything in between. For School Owners and Teachers who want to understand children better.</p>
       </div>
       <div className="intro-card">
         
         <h3>Why It Was Created</h3>
-        <p>Too many parents feel ill-equipped for the challenges of modern parenting. This program bridges the gap between good intentions and real, effective parenting tools.</p>
+        <p>Too many parents feel ill-equipped for the challenges of modern parenting. This program bridges the gap between good intentions and real, effective parenting tools.Also our busy world has reduced time spent influencing our children while emerging challenges battle the family unit.</p>
       </div>
       <div className="intro-card">
         
         <h3>What You'll Gain</h3>
-        <p>Deeper connection with your children, proven strategies for common challenges, and a community of parents walking the same journey — with expert guidance every step.</p>
+        <p>Deeper connection with your children, proven strategies for common challenges, and a community of parents walking the same journey with expert guidance every step. Children equipped with practical tools to tackle and succeed against life's challenges.</p>
       </div>
     </div>
   </div>
@@ -199,7 +199,7 @@ function Home({ setPage }) {
     <div className="faq-list">
       <FaqItem
         question="Who is this program designed for?"
-        answer="This program is designed for parents and guardians of children aged 5–18 who want to build stronger, healthier family relationships."
+        answer="This program is designed for parents and guardians of children aged 0–18 who want to be more intentional, whether you're navigating toddlerhood, the teen years, or anything in between. For School Owners and Teachers who want to understand children better."
       />
       <FaqItem
         question="How does the program run?"
@@ -238,7 +238,7 @@ function Home({ setPage }) {
       <span>📅 Every Saturday</span>
       <span>⏱ 2 Hours</span>
       <span>💻 Zoom</span>
-      <span>📆 1 Month</span>
+      <span>📆 Bi-Monthly</span>
     </div>
   </div>
 </section>

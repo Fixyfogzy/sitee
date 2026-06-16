@@ -69,7 +69,7 @@ function Register() {
                 <li><span>📅</span> Every Saturday</li>
                 <li><span>⏱</span> 2 hours per session</li>
                 <li><span>💻</span> Live on Zoom</li>
-                <li><span>📆</span> 1 Month (4 sessions)</li>
+                <li><span>📆</span> Bi-Monthly (4 sessions per month)</li>
                 <li><span>📚</span> 3 courses available</li>
                 <li><span>🗓</span> Starting August</li>
               </ul>
@@ -78,17 +78,18 @@ function Register() {
             <div className="reg-pricing-card">
               <h3>Pricing</h3>
               <div className="pricing-item">
-                <span className="pricing-label">Master Class</span>
-                <span className="pricing-value">₦30,000 <small>(4 weeks)</small></span>
-              </div>
-              <div className="pricing-item">
                 <span className="pricing-label">Regular</span>
-                <span className="pricing-value">₦40,000 <small>(6 weeks)</small></span>
+                <span className="pricing-value">₦30,000</span>
               </div>
               <div className="pricing-item early">
                 <span className="pricing-label">🔥 Early Bird</span>
                 <span className="pricing-value">₦20,000</span>
               </div>
+              <div className="pricing-item">
+                <span className="pricing-label">Acc No.</span>
+                <span className="pricing-value">0000000000- opay</span>
+              </div>
+              
               <p className="pricing-note">Early bird: Jun 10th — Jul 10th</p>
             </div>
 
@@ -100,7 +101,7 @@ function Register() {
               </div>
               <div className="contact-item">
                 <span>📞</span>
-                <a href="tel:+2347082230788">+234 708 223 0788</a>
+                <a href="tel:+2347082230788">++234 913 384 6226</a>
               </div>
               <div className="contact-item">
                 <span>✉️</span>
@@ -111,8 +112,8 @@ function Register() {
                 <a href="https://youtube.com/@parentingwithdrdally" target="_blank" rel="noreferrer">parentingwithdrdally</a>
               </div>
               <div className="whatsapp-btns">
-                <a href="https://wa.me/2348024242885" target="_blank" rel="noreferrer" className="wa-btn">💬 WhatsApp 1</a>
-                <a href="https://wa.me/2347082230788" target="_blank" rel="noreferrer" className="wa-btn">💬 WhatsApp 2</a>
+              
+                <a href="https://wa.me/2348176882686" target="_blank" rel="noreferrer" className="wa-btn">💬 WhatsApp</a>
               </div>
             </div>
           </div>

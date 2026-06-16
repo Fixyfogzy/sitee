@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Facilitators from './pages/Facilitators';
 import Register from './pages/Register';
+import Privacy from './pages/Privacy';
 
 function App() {
   const [page, setPage] = useState('home');
@@ -14,6 +15,7 @@ function App() {
       case 'courses': return <Courses setPage={setPage} />;
       case 'facilitators': return <Facilitators setPage={setPage} />;
       case 'register': return <Register setPage={setPage} />;
+      case 'privacy': return <Privacy setPage={setPage} />;
       default: return <Home setPage={setPage} />;
     }
   };
