@@ -79,6 +79,12 @@ const facilitators = [
     bio: 'A dedicated Educator and trauma healing facilitator with a passion for nurturing holistic growth, learning and  emotional well-being of children. Areas of Expertise include, Curriculum consultant Trauma healing and psychosocial support Group facilitation and Community Engagement as well as Child and Youth development.',
     img: require('../images/Pauline John.jpeg'),
   },
+  {
+    id: 14,
+    name: 'Aniyameta Oluwaseun 🇳🇬',
+    bio: 'She is an Educationist with expertise in Computer Literacy. Seun is passionate about children and volunteers for the cause of impacting them through sensitizing them on social ills. She loves to sing.',
+    img: require('../images/Aniyameta Oluwaseun.jpeg'),
+  },
 ];
 function Facilitators() {
   const [selected, setSelected] = useState(null);

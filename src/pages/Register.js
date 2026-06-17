@@ -69,7 +69,7 @@ function Register() {
                 <li><span>📅</span> Every Saturday</li>
                 <li><span>⏱</span> 2 hours per session</li>
                 <li><span>💻</span> Live on Zoom</li>
-                <li><span>📆</span> Bi-Monthly (4 sessions per month)</li>
+                <li><span>📆</span> Bi-Monthly</li>
                 <li><span>📚</span> 3 courses available</li>
                 <li><span>🗓</span> Starting August</li>
               </ul>
@@ -77,19 +77,26 @@ function Register() {
 
             <div className="reg-pricing-card">
               <h3>Pricing</h3>
-              <div className="pricing-item">
-                <span className="pricing-label">Regular</span>
-                <span className="pricing-value">₦30,000</span>
-              </div>
-              <div className="pricing-item early">
-                <span className="pricing-label">🔥 Early Bird</span>
-                <span className="pricing-value">₦20,000</span>
-              </div>
-              <div className="pricing-item">
-                <span className="pricing-label">Acc No.</span>
-                <span className="pricing-value">0000000000- opay</span>
-              </div>
-              
+<div className="pricing-item">
+  <span className="pricing-label">Regular</span>
+  <span className="pricing-value">₦30,000</span>
+</div>
+<div className="pricing-item early">
+  <span className="pricing-label">🔥 Early Bird</span>
+  <span className="pricing-value">₦20,000</span>
+</div>
+<div className="pricing-item">
+  <span className="pricing-label">Account Name</span>
+  <span className="pricing-value">Adetoun Dally</span>
+</div>
+<div className="pricing-item">
+  <span className="pricing-label">Account Number</span>
+  <span className="pricing-value">8176882686- Opay</span>
+</div>
+<div className="pricing-item">
+  <span className="pricing-label">Account Number</span>
+  <span className="pricing-value">3048987354- Polaris</span>
+</div>
               <p className="pricing-note">Early bird: Jun 10th — Jul 10th</p>
             </div>
 
