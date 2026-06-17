@@ -148,7 +148,7 @@ function Home({ setPage }) {
         <div className="fac-img">
           <img src={require('../images/Dr Adetoun Dally.jpeg')} alt="Adetoun Dally" />
         </div>
-        <h3>Dr. Adetoun Dally</h3>
+        <h3>Dr. Adetoun Dally 🇳🇬</h3>
         
       </div>
 
@@ -156,7 +156,7 @@ function Home({ setPage }) {
         <div className="fac-img">
           <img src={require('../images/Olufolake Adeagbo.jpeg')} alt="Olufolake Adeagbo" />
         </div>
-        <h3>Olufolake Adeagbo</h3>
+        <h3>Olufolake Adeagbo 🇺🇸</h3>
         
       </div>
 
@@ -164,7 +164,7 @@ function Home({ setPage }) {
         <div className="fac-img">
           <img src={require('../images/Dennis Odero Wao.jpeg')} alt="Dennis Odero Wao." />
         </div>
-        <h3>Dennis Odero Wao.</h3>
+        <h3>Dennis Odero Wao. 🇰🇪</h3>
         
       </div>
 
@@ -172,7 +172,7 @@ function Home({ setPage }) {
         <div className="fac-img">
           <img src={require('../images/Olajide Ojeniyi.jpeg')} alt="Olajide Ojeniyi" />
         </div>
-        <h3>Olajide Ojeniyi</h3>
+        <h3>Olajide Ojeniyi 🇹🇿</h3>
         
       </div>
     </div>
