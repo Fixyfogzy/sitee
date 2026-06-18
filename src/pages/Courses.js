@@ -98,7 +98,8 @@ The Course helps to prepare for the phase of parenting as well as helps parents 
       <section className="course-detail">
         <div className="course-detail-inner">
          <div className="course-detail-visual cd3">
-  <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600" alt="Grooming Boys" />
+          <img src={require('../images/boys.jfif')} alt="Grooming Boys" />
+
 </div>
           <div className="course-detail-content">
             <p className="eyebrow">Course 03</p>
