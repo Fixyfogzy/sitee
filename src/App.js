@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -8,24 +9,18 @@ import Register from './pages/Register';
 import Privacy from './pages/Privacy';
 
 function App() {
-  const [page, setPage] = useState('home');
-
-  const renderPage = () => {
-    switch(page) {
-      case 'courses': return <Courses setPage={setPage} />;
-      case 'facilitators': return <Facilitators setPage={setPage} />;
-      case 'register': return <Register setPage={setPage} />;
-      case 'privacy': return <Privacy setPage={setPage} />;
-      default: return <Home setPage={setPage} />;
-    }
-  };
-
   return (
-    <div>
-      <Navbar page={page} setPage={setPage} />
-      {renderPage()}
-      <Footer setPage={setPage} />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/facilitators" element={<Facilitators />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/privacy" element={<Privacy />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

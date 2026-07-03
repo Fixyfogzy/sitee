@@ -108,7 +108,7 @@ function Register() {
               </div>
               <div className="contact-item">
                 <span>📞</span>
-                <a href="tel:+2347082230788">++234 913 384 6226</a>
+                <a href="tel:+2347082230788">+234 913 384 6226</a>
               </div>
               <div className="contact-item">
                 <span>✉️</span>

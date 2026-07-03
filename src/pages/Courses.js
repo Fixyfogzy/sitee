@@ -1,6 +1,9 @@
+
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
 
-function Courses({ setPage }) {
+function Courses() {
+  const navigate = useNavigate();
   return (
     <div>
       {/* Page Hero */}
@@ -50,7 +53,7 @@ The Course helps to prepare for the phase of parenting as well as helps parents 
                 <li>Grandparents who want to scale up their parenting to present age compliant.</li>
               </ul>
             </div>
-           <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+           <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
           </div>
         </div>
       </section>
@@ -86,7 +89,7 @@ The Course helps to prepare for the phase of parenting as well as helps parents 
                 <li>Girls from 12 years old and above, especially those navigating adolescence</li>
               </ul>
             </div>
-           <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+           <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
           </div>
           <div className="course-detail-visual cd2">
   <img src={require('../images/emp.jfif')} alt="Empowering Girls" />
@@ -129,7 +132,7 @@ The Course helps to prepare for the phase of parenting as well as helps parents 
                 <li>Boys from 12 years old and above</li>
               </ul>
             </div>
-           <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+           <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
           </div>
         </div>
       </section>

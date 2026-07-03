@@ -1,5 +1,5 @@
 
-
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 
@@ -19,7 +19,8 @@ function FaqItem({ question, answer }) {
 
 
 
-function Home({ setPage }) {
+function Home() {
+  const navigate = useNavigate();
   return (
     <div>
    {/* Hero Section */}
@@ -35,8 +36,8 @@ function Home({ setPage }) {
         empower their daughters, and groom their sons into great men.
       </p>
       <div className="hero-btns">
-        <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
-        <button className="btn btn-outline-dark" onClick={() => { setPage('courses'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>View Courses</button>
+        <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+        <button className="btn btn-outline-dark" onClick={() => { navigate('/courses'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>View Courses</button>
       </div>
     </div>
 
@@ -98,7 +99,7 @@ function Home({ setPage }) {
         <div className="course-card-body">
           <h3>Parenting & Wholesomeness</h3>
           <p>Practical, heart-centered strategies for raising children with character, discipline, and love.</p>
-          <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+          <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
         </div>
       </div>
 
@@ -109,7 +110,7 @@ function Home({ setPage }) {
         <div className="course-card-body">
           <h3>Empowering Girls</h3>
           <p>Equip your daughters with confidence, self-worth, and the tools to navigate adolescence with purpose.</p>
-          <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+          <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
         </div>
       </div>
 
@@ -120,13 +121,13 @@ function Home({ setPage }) {
         <div className="course-card-body">
           <h3>Grooming Boys</h3>
           <p>Raise boys who grow into responsible, emotionally healthy, and purpose-driven men.</p>
-          <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+          <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
         </div>
       </div>
     </div>
 
     <div className="courses-cta">
-      <button className="btn btn-outline-dark" onClick={() => { setPage('courses'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Explore All Courses</button>
+      <button className="btn btn-outline-dark" onClick={() => { navigate('/courses'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Explore All Courses</button>
     </div>
   </div>
 </section>
@@ -178,7 +179,7 @@ function Home({ setPage }) {
     </div>
 
     <div className="facilitators-cta">
-     <button className="btn btn-outline-dark" onClick={() => { setPage('facilitators'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>View All Facilitators</button>
+     <button className="btn btn-outline-dark" onClick={() => { navigate('/facilitators'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>View All Facilitators</button>
     </div>
   </div>
 </section>
@@ -232,7 +233,7 @@ function Home({ setPage }) {
       Register now and secure your spot in our next cohort. 
       Sessions begin in August.
     </p>
-    <button className="btn btn-primary" onClick={() => { setPage('register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
+    <button className="btn btn-primary" onClick={() => { navigate('/register'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Register Now</button>
     
     <div className="cta-meta">
       <span>📅 Every Saturday</span>
